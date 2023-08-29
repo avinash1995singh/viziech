@@ -1,5 +1,3 @@
-/* #012970 is changed to #45916B */
-/* #45916B is changed to #45916B */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -264,7 +262,6 @@ section {
 .navbar a:hover
  {
   color: #f97316;
-
 }
 
 .navbar .getstarted,
@@ -417,7 +414,6 @@ section {
 .navbar-mobile li:hover>a {
   /* color: #45916B; */
   color:#f97316;
-
 }
 
 .navbar-mobile .getstarted,
@@ -566,9 +562,7 @@ section {
   color: #0d4563;
 }
 
-.box:hover{
-  
-}
+
 /* .preferred-approach{
 
 } */
