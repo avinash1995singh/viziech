@@ -2560,6 +2560,17 @@ background-color: #495678;
 color: white;
 }
 
+.book-appointment-btn{
+ display: flex;
+ flex-direction: column;
+ gap:10px;
+ justify-content: center;
+}
+
+.book-appointment-btn h2, .book-appointment-btn a{
+  align-self: center;
+}
+
 .book-btn{
   color: #45916B;
    background-color: white;
@@ -2710,6 +2721,22 @@ color: #45916B;
   width: 150px;
 }
 
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  height: auto;
+  margin-right: 10px;
+}
 
 
 
