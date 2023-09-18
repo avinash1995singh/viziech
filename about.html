@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
+  <link href="assets/css/boxicons.min.css" rel="stylesheet">
     <!-- CSS Files -->
     <link href="assets/css/aos.css" rel="stylesheet" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -40,9 +41,9 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top header-color">
+    <header id="header" class="header header-color fixed-top" style="height: 90px;">
       <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+        class="container-fluid container-xl d-flex align-items-center justify-content-between sticky"
       >
         <a href="index.html" class="logo d-flex align-items-center">
           <img src="assets/img/VIZI-Infotech.png"" alt=" VIZI Tech Solutions
@@ -82,9 +83,9 @@
               </ul>
             </li>
             <li><a href="contact.html">Contact</a></li>
-            <li>
+            <!-- <li>
               <a class="getstarted" href="#" onclick="openNav()">Get Quote</a>
-            </li>
+            </li> -->
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -113,7 +114,29 @@
       </div>
       <!-- End Breadcrumbs -->
       <!-- ======= About Section ======= -->
-      <section id="about" class="about">
+
+      
+  <!-- ======= Hero Section ======= -->
+  <section id="hero-about">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <h1 style="margin-top: 6vh;">Better digital experience with VIZI Tech</h1>
+          <h2>Discover our exceptional group of skilled developers who craft captivating websites with their collective expertise. With a wealth of knowledge and creativity, we consistently deliver digital excellence, transforming ideas into remarkable online experiences.</h2>
+          <div class="text-center">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-about-img">
+          <img src="assets/img/hero-img.svg" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- End Hero -->
+
+      <!-- <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <div class="row gx-0">
             <div
@@ -152,7 +175,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End About Section -->
       <!-- =======  Section ======= -->
       <section id="pricing" class="pricing">
@@ -277,26 +300,9 @@
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <div class="row gx-0">
-            <div
-              class="extra-box col-lg-5 d-flex flex-column justify-content-center"
-              data-aos="zoom-out"
-              data-aos-delay="600"
-            >
-              <h1 class="text-justify preferred-approach">
-                Supporting leaders in web related strategies and operations.
-
-
-
-
-
-              </h1>
-              <p class="text-justify">
-              
-We offer extensive support by identifying, thoroughly analyzing, and proficiently resolving a diverse array of intricate business challenges. This dedicated assistance significantly contributes to amplifying your operational efficiency and fostering an encompassing sense of accomplishment across your enterprise.
-              </p>
-            </div>
-            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
               <div class="content">
+                <h2 style="margin-bottom: 30px;">Our Standout Attributes</h2>
                 <div class="accordion accordion-flush" id="faqlist2">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -437,6 +443,8 @@ We offer extensive support by identifying, thoroughly analyzing, and proficientl
           </div>
         </div>
       </section>
+
+    
 
       <!-- ======= Team Section ======= -->
       <section id="team" class="team">
@@ -1044,4 +1052,5 @@ We offer extensive support by identifying, thoroughly analyzing, and proficientl
       </div>
     </div>
   </body>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </html>

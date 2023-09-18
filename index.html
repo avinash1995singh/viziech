@@ -19,13 +19,11 @@
   <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Q82B9BDM1"></script>
@@ -40,8 +38,8 @@
 
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top header-color">
-    <div class=" container-xl d-flex align-items-center justify-content-between">
+  <header id="header" class="header header-color fixed-top">
+    <div class=" container-xl d-flex align-items-center justify-content-between sticky ">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/VIZI-Infotech.png" alt=" VIZI Tech Solutions Consulting" title="VIZI Tech Solutions Consulting">
       </a>
@@ -60,43 +58,29 @@
             <ul>
               <li><a href="casa.html">CASA</a></li>
                               <li><a href="other-application.html">Other Application</a></li>
-              <!-- <li><a href="data-analytics.html">Data Analytics</a></li> -->
-              <!-- <li><a href="erp.html">ERP</a></li> -->
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a class="getstarted" href="#" onclick="openNav()" style="background-color: #765DF9;">Get Quote</a></li>
+          <!-- <li><a class="getstarted" href="#" onclick="openNav()" style="background-color: #765DF9;">Get Quote</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
     </div>
-  </header><!-- End Header -->
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up" class="text-justify" style="font-size:2.4rem;">Maximize Data Potential with Expert Insights
-          </h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">With our expertise bring automation and cost optimization to your
-            organization.</h2>
-          <div data-aos="fade-up" data-aos-delay="600">
-            <div class="text-center text-lg-start">
-              <a href="about.html"
-                class="btn-get-started d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Let us introduce</span>
-                <i class="bi bi-arrow-right"></i>
+    <div class="hero-container" style="display: flex; flex-direction: column; align-items: center;">
+      <h1>Welcome to VIZI Tech Solutions</h1>
+      <h2>One destination for all your web related questions</h2>
+        <div class="hero-introduce">
+              <a href="about.html">
+                <span class="introduce-btn"
+                class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">Let us introduce</span>
+                <i class="bi bi-arrow-right introduce-arrow"></i>
               </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="VIZI Tech Solutions Consulting"
-            title="VIZI Tech Solutions Consulting">
-        </div>
-      </div>
+  </div>
     </div>
-  </section><!-- End Hero -->
+  </header>
+
+  <!-- End Header -->
+
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -140,7 +124,7 @@
               <div class="col-lg-6 d-flex flex-column justify-content-center mb-3 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
                   <div class="content book-appointment-btn">
                       <h2>Claim <strong>24x7</strong> Free Consultation</h2>
-                      <a href="contact.html" class="book-btn" style="width: 200px;"><strong>Book an Appointment</strong></a>
+                      <a href="contact.html" class="book-btn"><strong>Book an Appointment</strong></a>
                   </div>
               </div>
               <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="200">
@@ -486,7 +470,7 @@
         <!-- <div class="container text-md-start"> -->
             <div class="row">
                   <div class="col-lg-5 col-md-12 mb-4 mb-md-0">
-                    <h6 class="text-uppercase fw-bold">VIZI Tech Solutions</h6>
+                    <h6 class="text-uppercase fw-bold" >VIZI Tech Solutions</h6>
                     <hr class="mb-3 mt-0 d-inline-block mx-auto" style="width: 175px; background-color:#765CFB; height: 3px" />
                     <p class="text-justify footer-text-color">
                         We're here to help with your tech needs! We specialize in SPAs (like React and Angular), and work with various libraries. We also handle AWS, Azure, Spring, and data management. We create useful Business Apps too, like Expense Management, Vendor Tracking, and more.

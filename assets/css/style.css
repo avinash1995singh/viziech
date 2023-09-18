@@ -182,9 +182,9 @@ section {
   padding: 17px 0;
 }
 
+
 .header.header-scrolled {
-  /* background:#F5F3FF; */
-  background: linear-gradient(to right, #45916B, #4BFD83); 
+  background-color: #545454;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -471,6 +471,30 @@ section {
   background-size: cover;
 }
 
+.hero-introduce {
+ background-color: #765CFB;
+ padding:10px;
+ border-radius: 4px;
+}
+
+.hero-introduce:hover{
+ background-color: #4e3ab6;
+}
+
+.introduce-btn{
+  color: white;
+  padding: 45px 5px 40px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  }
+
+  .introduce-arrow{
+      color: white;
+      font-weight: bold;
+  }
+
+
+  
 .hero h1 {
   margin: 0;
   font-size: 48px;
@@ -2659,10 +2683,27 @@ ul.li-oneThird li {
   width: 33.3%;
 }
 
-.header-color{
-  background: linear-gradient(to right, #45916B, #4BFD83); 
-  /* background-color: grey; */
+.header-color {
+  background: url("../img/hero-bg.jpg") center center;
+  background-size: cover;
+  height: 90vh; /* 100% of the viewport height */
 }
+/* Define the sticky class */
+.sticky {
+  position: sticky;
+  top: 0; /* Adjust this value to determine when the header becomes sticky */
+  background-color: #f09292; /* Change the background color as needed */
+  z-index: 100; /* Adjust the z-index to control the stacking order */
+  width:100%;
+}
+
+/* Add any other styles you want for your sticky header */
+.sticky {
+  padding: 10px 20px; /* Add padding to the header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  /* Add more styles as needed */
+}
+
 
 .col-md-4 p {
   margin-bottom: 0.5rem;
@@ -2746,13 +2787,188 @@ color: #765CFB;
   margin-right: 10px;
 }
 
-/* .dropdown ul li {
-  background-color: #765DF9;
-  padding: 5px; /* Adjust the padding as needed */
-} */
+/* ---===Hero Section===--- */
+#heroBg {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/hero-bg.jpg") center center;
+  background-size: cover;
+  position: relative;
+  margin-top: -10px;
+  z-index: 9;
+}
+
+.hero-container {
+  position: absolute;
+  bottom:0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+  height: 600px;
+}
+
+.hero-container h1 {
+  margin: 5vh 0 10px 0;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  line-height: 56px;
+  color: #222;
+}
+
+#heroBg h2 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+/* # Services */
+--------------------------------------------------------------*/
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-5px);
+  border-color: #ef7f4d;
+}
+
+.services .icon i {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: #ef7f4d;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #111;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
 
 
 
+/* /*-------------------------------------------------------------- */
+/* # Hero Section */
+#hero-about {
+  width: 100%;
+  background: #F5F3FF;
+  border-bottom: 2px solid #fcebe3;
+  margin-bottom: 30px;
+  padding: 30px 0; /* Adjust the padding to control spacing */
+}
 
+#hero-about h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #4e4039;
+  text-align: center; /* Center-align the h1 heading */
+}
 
+#hero-about h2 {
+  color: #a08f86;
+  margin: 15px 0 0 0;
+  font-size: 22px;
+  text-align: center; /* Center-align the h2 heading */
+}
 
+#hero-about .btn-get-started {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #765CFB;
+  text-align: center; /* Center-align the button */
+  /* display: block; Make the button a block element for center alignment */
+  margin: 20px auto; /* Center the button */
+}
+
+#hero-about .btn-get-started:hover {
+  background-color: #4e3ab6;
+}
+
+#hero-about .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@media (max-width: 991px) {
+  #hero-about {
+    height: auto; /* Remove the fixed height */
+  }
+
+  #hero-about .hero-about-img {
+    text-align: center; /* Center-align the image container */
+  }
+
+  #hero-about .hero-about-img img {
+    width: 70%; /* Adjust image width for smaller screens */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  #hero-about h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero-about h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero-about .hero-about-img img {
+    width: 80%; /* Further adjust image width for smaller screens */
+  }
+}
+
+@media (max-height: 600px) {
+  #hero-about {
+    height: 120vh;
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
