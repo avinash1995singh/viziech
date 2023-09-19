@@ -2699,11 +2699,6 @@ ul.li-oneThird li {
   width:100%;
 }
 
-/* Add any other styles you want for your sticky header */
-.sticky {
- 
-}
-
 
 .col-md-4 p {
   margin-bottom: 0.5rem;
@@ -2812,6 +2807,7 @@ color: #765CFB;
   text-align: center;
   padding: 0 15px;
   height: 600px;
+  /* overflow: hidden; */
 }
 
 .hero-container h1 {
@@ -2822,6 +2818,17 @@ color: #765CFB;
   line-height: 56px;
   color: #222;
 }
+
+.hero-container h1,
+.hero-container h2,
+.hero-container .hero-introduce {
+  visibility: visible; /* Initially visible */
+}
+
+.hero-container.hero-containers {
+  opacity: 0; /* Hide content by setting opacity to 0 */
+}
+
 
 #heroBg h2 {
   color: #333;
