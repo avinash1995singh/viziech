@@ -2689,7 +2689,13 @@ ul.li-oneThird li {
   width: 33.3%;
 }
 
-.header-color {
+.header-colors {
+  background: url("../img/hero-bg2.jpg") center top;
+  background-size: cover;
+  height: 12% /* 100% of the viewport height */
+}
+
+.header-colors {
   background: url("../img/hero-bg2.jpg") center top;
   background-size: cover;
   height: 100% /* 100% of the viewport height */
@@ -2813,13 +2819,13 @@ color: #765CFB;
   /* overflow: hidden; */
 }
 
-.hero-container h1 {
+.hero-container h1,h2 {
   margin: 5vh 0 10px 0;
   font-size: 48px;
   font-weight: 400;
   line-height: 56px;
   line-height: 56px;
-  color: #222;
+  color: white;
 }
 
 .hero-container h1,
