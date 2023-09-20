@@ -834,6 +834,8 @@ background-color: #e0e7ff;
   border-bottom: 3px solid #765CFB;
 }
 
+
+
 .features .feture-tabs .tab-content h4 {
   font-size: 18px;
   margin: 0;
@@ -2687,7 +2689,7 @@ ul.li-oneThird li {
 }
 
 .header-color {
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/hero-bg.jpg") center top;
   background-size: cover;
   height: 100% /* 100% of the viewport height */
 }
