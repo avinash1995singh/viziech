@@ -222,6 +222,7 @@ section {
 */
 .navbar {
   padding: 0;
+  z-index: 1003;
 }
 
 .navbar ul {
