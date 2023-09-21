@@ -268,7 +268,7 @@ section {
 .navbar .active,
 .navbar a:hover
  {
-  color:#7c2d12;
+  color:#e16bf0;
 }
 
 .navbar .getstarted,
@@ -2690,13 +2690,13 @@ ul.li-oneThird li {
 }
 
 .header-colors {
-  background: url("../img/hero-bg2.jpg") center top;
+  background: url("../img/hero-bg3.jpg") center top;
   background-size: cover;
   height: 12% /* 100% of the viewport height */
 }
 
-.header-colors {
-  background: url("../img/hero-bg2.jpg") center top;
+.header-color {
+  background: url("../img/hero-bg3.jpg") center top;
   background-size: cover;
   height: 100% /* 100% of the viewport height */
 }
@@ -2795,7 +2795,7 @@ color: #765CFB;
 #heroBg {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/hero-bg3.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: -10px;
@@ -2820,10 +2820,9 @@ color: #765CFB;
 }
 
 .hero-container h1,h2 {
-  margin: 5vh 0 10px 0;
+  margin: 1vh 0 10px 0;
   font-size: 48px;
   font-weight: 400;
-  line-height: 56px;
   line-height: 56px;
   color: white;
 }
