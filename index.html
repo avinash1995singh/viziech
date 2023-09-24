@@ -69,15 +69,15 @@
     </div>
     <div class="hero-container" style="display: flex; flex-direction: column; align-items: center;">
       <h1>Welcome to VIZI Tech Solutions</h1>
-      <h2>One destination for all your web related questions</h2>
-        <div class="hero-introduce">
-              <a href="about.html">
-                <span class="introduce-btn"
-                class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">Let us introduce</span>
-                <i class="bi bi-arrow-right introduce-arrow"></i>
-              </a>
-  </div>
+      <h2>One destination for all your web-related queries</h2>
+      <div class="hero-introduce">
+        <a href="about.html">
+          <span class="d-inline-flex align-items-center justify-content-center align-self-center introduce-text">Let us introduce</span>
+          <i class="bi bi-arrow-right introduce-arrow"></i>
+        </a>
+      </div>
     </div>
+    
   </header>
 
   <!-- End Header -->
@@ -95,7 +95,7 @@
             <img src="assets/img/img_1.png" class="img-fluid" alt="VIZI Tech Solutions Consulting"
               title="VIZI Tech Solutions Consulting">
           </div>
-          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5 d-flex flex-column justify-content-center read-more-text" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>Who We Are</h3>
               <h2>
@@ -675,11 +675,11 @@
     </div>
   </div>
   <script>
-   const heroContainer = document.querySelector(".hero-container");
+ const heroContainer = document.querySelector(".hero-container");
 
 const scrollState = localStorage.getItem("scrollState");
 if (scrollState === "hidden") {
-    heroContainer.classList.add("hero-containers");
+    heroContainer.style.display = "none";
 }
 
 window.onload = () => {
@@ -688,10 +688,10 @@ window.onload = () => {
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 90) { 
-        heroContainer.classList.add("hero-containers"); // Add the class to hide content
+        heroContainer.style.display = "none"; // Hide the content
         localStorage.setItem("scrollState", "hidden"); // Store the state in local storage
     } else {
-        heroContainer.classList.remove("hero-containers"); // Remove the class to show content
+        heroContainer.style.display = "flex"; // Show the content
         localStorage.setItem("scrollState", "visible"); // Store the state in local storage
     }
 });
