@@ -2940,6 +2940,7 @@ color: #8AAEE0;
 }
 
 #hero-about h2 {
+  margin: 0;
   color: #a08f86;
   margin: 40px 0 0 0;
   font-size: 22px;
@@ -3022,5 +3023,10 @@ color: #8AAEE0;
 }
 
 .consulation-heading{
-  font-size: 45px;
+  font-size: 40px;
+}
+
+.img-demo{
+  width: 100%;
+  height: 100%;
 }
