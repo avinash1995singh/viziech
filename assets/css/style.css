@@ -485,7 +485,7 @@ section {
 }
 .hero-introduce {
   background-color: white; /* Initial white background */
-  padding: 10px;
+  padding: 12px;
   border-radius: 4px;
   color: #7399CA; /* Initial blueish text color */
   transition: all 0.3s; /* Smooth transition effect */
@@ -508,9 +508,7 @@ section {
 color:#7399CA ;
 }
 
-.introduce-text:hover{
-  color:white ;
-  }
+
  
 .hero h1 {
   margin: 0;
