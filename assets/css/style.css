@@ -83,7 +83,6 @@ section {
   /* padding: 15px 0; */
   background: #8AAEE0;
   min-height: 40px;
-  margin-top: 82px;
   color: #fff;
 }
 
@@ -196,7 +195,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 50px;
+  max-height: 30px;
   margin-right: 6px;
 }
 .header .mainLogo img {
@@ -246,7 +245,7 @@ section {
   padding: 10px 0 10px 30px;
   /* font-family: "Nunito", sans-serif; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   /* color: #495678; */
   color: white;
