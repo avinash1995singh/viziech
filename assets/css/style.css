@@ -604,21 +604,10 @@ color:#7399CA ;
 }
 
 .innovative-approach{
-  /* font-family: Arial, Helvetica, sans-serif; */
-font-size: 35px;
+  font-size: 35px;
   color: #0d4563;
 }
-
-
-/* .preferred-approach{
-
-} */
-/*--------------------------------------------------------------
-# Index Page
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/* ------------------------------About--------------------------------*/ */
 .about{
   position: relative;
 }
@@ -727,8 +716,15 @@ padding: 20px;
 
 .box:hover, .box:hover h3{
   transform: scale(1.1);
-  background-color:  grey;
+  /* background-color:  grey; */
   color: #495678;
+}
+
+.
+{
+  background-color: #adc9f0;
+  color: white;
+  border-radius: 5%;
 }
 
 /*--------------------------------------------------------------
@@ -2713,7 +2709,8 @@ ul.li-oneThird li {
 .header-colors {
   background: url("../img/hero-bg3.jpg") center top;
   background-size: cover;
-  height: 12% /* 100% of the viewport height */
+  /* height: 12% 100% of the viewport height */
+  height: auto;
 }
 
 .header-color {
@@ -2962,8 +2959,7 @@ color: #8AAEE0;
 }
 
 #hero-about .btn-get-started:hover {
-  background-color: #312668;
-  /* background-color: #0C1E32; */
+  background-color: #495678;
 }
 
 #hero-about .animated {
@@ -3030,4 +3026,30 @@ color: #8AAEE0;
 .content h2 {
   color: #8AAEE0;
   font-size: 40px;
+}
+
+.introduce-btn{
+  background-color: #3c4868;
+  border-color: #3c4868;
+}
+
+.introduce-btn:hover{
+  color: #3c4868;
+  border-color: #3c4868;
+  background-color: white;
+}
+
+.read-more-btn{
+background-color: #6F9CD3;
+}
+
+.read-more-btn:hover{
+background-color: #5079ab;
+  color: white;
+}
+
+.innovative-approach-box:hover{
+background-color:#C5D4E8;
+color: #3c4868;
+z-index: 9999;
 }
